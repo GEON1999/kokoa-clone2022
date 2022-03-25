@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://w.namu.la/s/059f8bf3e629d3f2e343fe3f3f10809022d58800962db675d233429660bf98d9ceccd60e23b1324d090c87485833b10c2c4503c93a230003ba67d5fcafa52793f8d71d2adef06b9f62cb7cf26826a8415a36206b86a934111235315d4b9b4c97" > 
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa</title>
+    <title>Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -18,24 +19,28 @@
         </div>
         <div class="status-bar__column">
             <span>200%</span>
-            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
 
-    <header class="welcom-header">
+    <header class="welcome-header">
         <h1 class="welcome-header__title">Welcom to KakaoTalk</h1>
-        <p class="welcome-header__title">
+        <p class="welcome-header__text">
             if you have a Kakao Account, log in with your email or phone number.
         </p>
     </header>
 
     <form id="Log-in-form">
         <input type="text" placeholder="Email or phone number"/>
-        <input type="text" placeholder="password"/>
-        <input type="submit" value="Log in"/>
+        <input type="password" placeholder="password"/>
+        <input id="Log-in" type="submit" value="Log in"/>
+        <input type="submit" value="Sign in"/>
         <a href="#">Find Kakao Accont or Password</a>
     </form>
+    
+
+
     
     <script src="https://kit.fontawesome.com/a1fad9b26c.js" 
     crossorigin="anonymous"></script>
