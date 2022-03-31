@@ -42,6 +42,11 @@
   font-weight: 400;
 }
 
-.user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+.user-component__column_music {
+  padding: 10px;
+  color: #242424be;
+  border: 1px solid rgb(161, 247, 34);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
 }
