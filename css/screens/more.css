@@ -1,0 +1,61 @@
+#note {
+    color: #2e363e;;
+    font-size: 35px;
+}
+
+.more-icons-home {
+    padding: 40px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.more-icons-1,
+.more-icons-2{   
+    display: flex;
+    justify-content: space-between;
+    
+}
+.more-icons-1 i,
+.more-icons-2 i {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.more-icons_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-icons-2 {
+    margin-top: 45px;
+    justify-content: space-around;
+}
+
+.more-icons-icon__title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.suggestions {
+    padding: 30px 0px;
+    
+}
+
+.suggestions-title {   
+    font-weight: 600;
+}
+
+.suggestions-icons {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.suggestions-icons__icon img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
