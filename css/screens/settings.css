@@ -4,10 +4,21 @@
   display: flex;
   justify-content: space-between;
   font-size: 28px;
+  align-items: center;
 }
 
-.settings-header__title {
+.settings-header__icon {
+  width: 33%;
+}
+
+.settings-header__icon:nth-child(2) {
+  text-align: center;
   font-weight: 600;
+}
+
+.settings-header__icon:last-child {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .settings-main__icons__each__icon {

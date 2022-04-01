@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://w.namu.la/s/059f8bf3e629d3f2e343fe3f3f10809022d58800962db675d233429660bf98d9ceccd60e23b1324d090c87485833b10c2c4503c93a230003ba67d5fcafa52793f8d71d2adef06b9f62cb7cf26826a8415a36206b86a934111235315d4b9b4c97" > 
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoa Talk</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>200%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="settings-header">
+        <div class="settings-header__icon"><a href="chats.html"><i class="fa-solid fa-chevron-left"></i></a></div>
+        <div class="settings-header__icon">Hyun</div>
+        <div class="settings-header__icon"><i class="fa-solid fa-magnifying-glass"></i><i  id="con" class="fa-solid fa-bars"></i></div>
+        
+    </header>
+
+    
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Friday, April 1, 2022
+        </div>
+
+        <div class="message-row message-row-another">
+            <img src="screenshots/13.jpeg">
+            <div class="message-row__content">
+                <span class="message__author">Hyun</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕</span>
+                    <span class="message__time">12:00</span>
+                </div>
+            </div>
+        </div>  
+
+        <div class="message-row message-row--own">           
+            <div class="message-row__content">                     
+                <div class="message__info">
+                    <span class="message__bubble">안녕</span>
+                    <span class="message__time">12:01</span>
+                </div> 
+            </div>
+        </div>  
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column"><i class="fa-regular fa-square-plus fa-lg"></i></div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fa-solid fa-face-grin-wide fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+  
+    <div id="no-mobile">
+        <span>Your screen is too big 😂😂</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a1fad9b26c.js" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
